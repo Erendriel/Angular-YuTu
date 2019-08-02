@@ -1,0 +1,38 @@
+<nav class="navbar navbar-expand-lg  bg-faded">
+    <div class=" row navbar-collapse container-fluid">
+        <div class="col-3">
+            <!-- <button (click)="opened=!opened;" class="border-0 rounded-circle bg-white"><i class="fa fa-bars fa-lg" style="color:gray"></i></button> -->
+            <a class="ml-3 pb-1" [routerLink]="['home']"><img src="assets/img/tutub.png" width="80px" alt=""></a>
+        </div>
+        <div class="input-group input-group-sm mt-1 col-md-5">
+            <input type="text" class="form-control" placeholder="Search" aria-label="Recipient's username" aria-describedby="button-addon2">
+            <div class="input-group-append">
+                <button class="px-4 btn btn-outline-secondary" type="button" id="button-addon2"><i class="fa fa-search "></i></button>
+            </div>
+        </div>
+        <!-- <div onsubmit="return false" class="col-6  form-inline m-auto">
+            <input class="" style="width: 80%" type=" text " placeholder=" Search " #buscarTexto aria-label="Search ">
+            <button class="px-4 py-sm-0 btn btn-outline-secondary" type="submit ">
+            </button>
+        </div> -->
+        <!-- <ul class="col-3  navbar-nav ml-lg-5">
+            
+            <li>
+                <button class="border-0 bg-white rounded-circle mx-2 pt-2"><i class="fa fa-video-camera fa-lg" style="color:gray"></i></button>
+            </li>
+            <li>
+                <button class="border-0 bg-white rounded-circle mx-2 pt-2"><i class="fa fa-th fa-lg" style="color:gray"></i></button>
+            </li>
+            <li>
+                <button class="border-0 bg-white rounded-circle mx-2 pt-2"><i class="fa fa-comment fa-lg" style="color:gray"></i></button>
+            </li>
+            <li>
+                <button class="border-0 bg-white rounded-circle mx-2 pt-2"><i class="fa fa-bell fa-lg" style="color:gray"></i></button>
+            </li>
+            <li>
+                <button class="border-0 bg-white rounded-circle mx-2"><i class="fa fa-user-circle-o fa-2x" style="color:gray"></i></button>
+            </li>
+        </ul> -->
+        <app-menu class="col-md-4 col-0"></app-menu>
+    </div>
+</nav>
