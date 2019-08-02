@@ -7,7 +7,7 @@ export class VideoService {
         {
         index: '1',
         img: '../../../assets/img/italian ricotta gnocchi.jpg',
-        title: 'Primerseishon videishon',
+        title: 'Primerseishon',
         channel: 'Canalseishon Nueveishons',
         uploadedDate: 'ayerseishon'
         },
