@@ -1,17 +1,17 @@
 <!-- <div class=""> -->
 <!-- <div class="card-deck" style="height: 100%"> -->
 <div class="row p-4">
-    <div class="card col-md-3" *ngFor="let videos of videos">
-        <a class="clickable" [href]="videos.index"><img [src]="videos.img" class="card-img-top" alt="...">
+    <div class="card col-md-3" *ngFor="let videos of videos; let i=index ">
+        <a class="clickable" [routerLink]="['/videos',i]"><img [src]="videos.img" class="card-img-top" alt="...">
         </a>
         <div class="card-body">
-            <a class="clickable" [href]="videos.index">
+            <a class="clickable" [routerLink]="['/videos',i]">
                 <h5 class="card-title">{{videos.title}}</h5>
             </a>
-            <a class="clickable" [href]="videos.channel">
+            <a class="clickable" [routerLink]="videos.channel">
                 <div class="card-text-channel"><small class="text-muted">{{videos.channel}}</small></div>
             </a>
-            <a class="clickable" [href]="videos.index">
+            <a class="clickable" [routerLink]="['/videos',i]">
                 <div class="card-text"><small class="text-muted">{{videos.uploadedDate}} </small></div>
             </a>
         </div>

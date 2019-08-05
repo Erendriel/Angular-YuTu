@@ -12,13 +12,10 @@ import { MenuComponent } from './components/shared/menu/menu.component';
 
 import { VideoService } from './services/videos.service';
 
-
-
 import {MatMenuModule} from '@angular/material/menu';
 import { LayoutModule } from '@angular/cdk/layout';
 import { MatButtonModule } from '@angular/material/button';
 import { VideoCardsComponent } from './components/video-cards/video-cards.component';
-import { RoutesComponent } from './src/routes/routes.component';
 
 @NgModule({
   declarations: [
@@ -26,8 +23,7 @@ import { RoutesComponent } from './src/routes/routes.component';
     NavbarComponent,
     SidebarComponent,
     MenuComponent,
-    VideoCardsComponent,
-    RoutesComponent
+    VideoCardsComponent
   ],
   imports: [
     BrowserModule,

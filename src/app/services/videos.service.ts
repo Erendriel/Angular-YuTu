@@ -15,49 +15,49 @@ export class VideoService {
         index: '2',
         img: '../../../assets/img/Untitled.png',
         title: 'Segundo video',
-        channel: 'el channel >:D',
+        channel: 'el channel ',
         uploadedDate: 'hace dos dias'
         },
         {
         index: '2',
         img: '../../../assets/img/Untitled.png',
         title: 'Segundo video',
-        channel: 'el channel >:D',
+        channel: 'el channel ',
         uploadedDate: 'hace dos dias'
         },
         {
         index: '2',
         img: '../../../assets/img/Untitled.png',
         title: 'Segundo video',
-        channel: 'gansitos :D',
+        channel: 'gansitos',
         uploadedDate: 'hace trs decadas'
         },
         {
         index: '2',
         img: '../../../assets/img/Untitled.png',
         title: 'Segundo video',
-        channel: 'gansitos :D',
+        channel: 'gansitos',
         uploadedDate: 'hace trs decadas'
         },
         {
         index: '2',
         img: '../../../assets/img/Untitled.png',
         title: 'Segundo video',
-        channel: 'gansitos :D',
+        channel: 'cuigüino',
         uploadedDate: 'hace trs decadas'
         },
         {
         index: '2',
         img: '../../../assets/img/Untitled.png',
         title: 'Segundo video',
-        channel: 'gansitos :D',
+        channel: 'Mamut',
         uploadedDate: 'hace trs decadas'
         },
         {
         index: '2',
         img: '../../../assets/img/Untitled.png',
         title: 'Segundo video',
-        channel: 'gansitos :D',
+        channel: 'Dalmata',
         uploadedDate: 'hace trs decadas'
         },
 ];
@@ -75,4 +75,4 @@ export class VideoService {
             title: string;
             channel: string;
             uploadedDate: string;
-        };
+        }
