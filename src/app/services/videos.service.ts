@@ -5,7 +5,7 @@ export class VideoService {
 
     private videos: iVideos[] = [
         {
-        index: '1',
+        index: '0',
         img: '../../../assets/img/italian ricotta gnocchi.jpg',
         title: 'Primerseishon',
         channel: 'Canalseishon Nueveishons',
