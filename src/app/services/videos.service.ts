@@ -19,46 +19,46 @@ export class VideoService {
         uploadedDate: 'hace dos dias'
         },
         {
-        index: '2',
+        index: '3',
         img: '../../../assets/img/Untitled.png',
-        title: 'Segundo video',
-        channel: 'el channel >:D',
-        uploadedDate: 'hace dos dias'
+        title: 'Tercer video',
+        channel: 'cuingüinos =3',
+        uploadedDate: 'hace 1 lustro'
         },
         {
-        index: '2',
+        index: '4',
         img: '../../../assets/img/Untitled.png',
-        title: 'Segundo video',
+        title: 'Cuarto video',
         channel: 'gansitos :D',
-        uploadedDate: 'hace trs decadas'
+        uploadedDate: 'hace 1 siglo'
         },
         {
-        index: '2',
+        index: '5',
         img: '../../../assets/img/Untitled.png',
-        title: 'Segundo video',
-        channel: 'gansitos :D',
-        uploadedDate: 'hace trs decadas'
+        title: 'Quinto video',
+        channel: 'Chocorroles :B',
+        uploadedDate: 'hace 6 days'
         },
         {
-        index: '2',
+        index: '6',
         img: '../../../assets/img/Untitled.png',
-        title: 'Segundo video',
-        channel: 'gansitos :D',
-        uploadedDate: 'hace trs decadas'
+        title: 'Sexto video',
+        channel: 'Bimbuñuelos :P',
+        uploadedDate: 'hace 1 milenio'
         },
         {
-        index: '2',
+        index: '7',
         img: '../../../assets/img/Untitled.png',
-        title: 'Segundo video',
-        channel: 'gansitos :D',
-        uploadedDate: 'hace trs decadas'
+        title: 'Séptimo video',
+        channel: 'Dalmatas :V',
+        uploadedDate: 'hace dos decadas'
         },
         {
-        index: '2',
+        index: '8',
         img: '../../../assets/img/Untitled.png',
-        title: 'Segundo video',
-        channel: 'gansitos :D',
-        uploadedDate: 'hace trs decadas'
+        title: 'Octavio video',
+        channel: 'Caramelos C:',
+        uploadedDate: 'hace cuatro decadas'
         },
 ];
     constructor() {
